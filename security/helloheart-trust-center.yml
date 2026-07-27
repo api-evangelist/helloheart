@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.helloheart.com/security
+url: https://trust.helloheart.com
+certifications:
+- HITRUST CSF
+- SOC 2 Type 2
+- NIST CSF
+- HIPAA
+evidence:
+- source: https://www.helloheart.com/security
+  keywords:
+  - hitrust csf certified
+  - soc 2 type 2 certified
+  - nist csf compliant
+  - hipaa
+- source: https://trust.helloheart.com
+  keywords:
+  - trust portal
+  - privacy and security posture

@@ -1,7 +1,31 @@
 aid: helloheart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helloheart.png
 name: Helloheart
-description: Helloheart is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hello Heart is a digital heart health company that combines a connected
+  blood pressure monitor, an AI-guided mobile app, and clinical expertise to
+  help people manage hypertension and cardiovascular risk. Its platform
+  includes the Hello Heart app for blood pressure tracking and personalized
+  guidance, a free connected blood pressure monitor for members, the Nia AI
+  chatbot offering 24/7 heart-health support with clinical guardrails, and a
+  forthcoming connected pill box for medication adherence. Hello Heart is sold
+  primarily through employers, health plans, public sector organizations,
+  labor unions, and benefits consultants, and reports outcomes such as fewer
+  hospital days and per-member cost savings. Backed by Khosla Ventures, the
+  company operates a consumer-facing digital health service and does not
+  currently publish a public developer API; this profile captures its identity,
+  trust, and security posture in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/helloheart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Digital Health
+- Health
+- Cardiovascular
+- Hypertension
+- Remote Patient Monitoring
+- Connected Devices
+- Employer Benefits
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,22 @@ maintainers:
 common:
 - type: Website
   url: http://www.helloheart.com/
+- type: Blog
+  url: https://www.helloheart.com/about/blog
+- type: PrivacyPolicy
+  url: https://www.helloheart.com/privacy-notice
+- type: TermsOfService
+  url: https://www.helloheart.com/terms
+- type: Support
+  url: mailto:support@helloheart.com
+- type: Compliance
+  url: https://trust.helloheart.com
+- type: TrustCenter
+  url: security/helloheart-trust-center.yml
+- type: DomainSecurity
+  url: security/helloheart-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
